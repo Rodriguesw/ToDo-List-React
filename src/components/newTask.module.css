@@ -1,0 +1,159 @@
+
+
+.boxTask{
+    height: 3rem;
+    width: 42rem;
+
+    position: relative;
+    left: 14rem;
+    margin: -1.5rem;
+    border: none;
+
+}
+
+.newTask{
+    height: 3rem;
+    width: 35rem;
+
+    background: var(--gray-500);
+    color: var(--gray-300);
+
+    padding-left: 1rem;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+.button{
+    width: 5.5rem;
+    height: 3rem;
+
+  
+    color: white;
+    background: var(--blueDark);
+    margin-left: 1rem;
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    
+    gap:0.5rem;
+
+    padding-left: 0.2rem;
+    border-radius: 8px;
+    border: none;
+
+    transition: 0.5s;
+}
+
+.button:hover{
+    background: var( --blue);
+}
+
+.boxfooter{
+    height: 25rem;
+    width: 46rem;
+    margin-top: 7rem;
+    margin-left: 21rem;
+
+    border-radius: 8px;
+   
+   
+    border-top: 1px solid var(--gray-400);
+}
+
+
+
+/* .task{
+    height: 4.5rem;
+    width: 46rem;
+    
+    border-radius: 8px;
+   
+    margin-top: 8rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    flex-direction: row;
+
+    background: var(--gray-500);
+
+    //border: 1px solid red;
+} */
+
+.task + .task{
+    margin-top: 0.6rem;
+}
+
+
+.boxTrash{
+    height: 1.5rem;
+    width:  1.7rem;
+
+    position: relative;
+    //top: -0.3rem;
+    right: 1.6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    //border: 1px solid yellow;
+}
+
+.trash{
+    color: var(--gray-300);
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: transparent;
+    border: none;
+}
+
+.trash:hover{
+    color: var(--danger);
+    background: var(--gray-400);
+}
+
+.boxCircle{
+    height: 1.5rem;
+    width:  1.7rem;
+   
+
+    position: relative;
+  
+    left: 1.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    //border: 1px solid white;
+}
+
+.Circle{
+    height: 1rem;
+    width:  1rem;
+
+    border-radius: 8px;
+    border: 1px solid var(--blue);
+    background: transparent;
+    
+}
+
+.Circle:hover{
+    background: var(--gray-400);
+    border: 1px solid var(--blueDark);
+}
